@@ -42,18 +42,9 @@ function NewMessage() {
   };
 
   return (
-    <div className={(isNewMessageOpened) ? 'new__message--display' : 'new__message'}>
+    <div className='new__message--display'>
       <h3>Send a new message</h3>
       <div className="new__message__container">
-        <Button
-          onClick={handleToggleNewMessage}
-          icon
-          className="message__close__button"
-          circular
-        ><Icon
-          name="close"
-        />
-        </Button>
         <Form className={(hasANewMessageBeenSent) ? 'new__message__form--hidden' : 'new__message__form'}>
           <Form.Field
             control={Input}
