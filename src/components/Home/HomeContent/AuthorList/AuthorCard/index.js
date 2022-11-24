@@ -22,7 +22,7 @@ function AuthorCard({
       <div className="prolific__user--item">
         <div className="prolific__user--circle">
           <Link to={`/volunteers/${pseudoSlug}`}>
-            <Image onClick={handleClickProfile} src={`http://romain2518-server.eddi.cloud/images/pp/${profilePicture}`} avatar size="tiny" />
+            <Image onClick={handleClickProfile} src={`http://romaingibet-server.eddi.cloud/images/pp/${profilePicture}`} avatar size="tiny" />
           </Link>
           <Link to={`/volunteers/${pseudoSlug}`}>
             <span onClick={handleClickProfile} className="user__pseudo">{pseudo}</span>

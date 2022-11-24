@@ -28,9 +28,9 @@ function ExperienceCard({
 
   return (
     <Card className="experience__card">
-      <Image className="experience__card--image" src={`http://romain2518-server.eddi.cloud/images/experiencePicture/${picture}`} wrapped ui={false} />
+      <Image className="experience__card--image" src={`http://romaingibet-server.eddi.cloud/images/experiencePicture/${picture}`} wrapped ui={false} />
       <Link to={`/volunteers/${userPseudoSlug}`}>
-        <Image onClick={handleClickProfile} className="user__image" src={`http://romain2518-server.eddi.cloud/images/pp/${user.profilePicture}`} size="tiny" />
+        <Image onClick={handleClickProfile} className="user__image" src={`http://romaingibet-server.eddi.cloud/images/pp/${user.profilePicture}`} size="tiny" />
       </Link>
       <Card.Content>
         <Card.Meta>

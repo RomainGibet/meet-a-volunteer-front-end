@@ -53,7 +53,7 @@ function Message({
 
       <div className="received__message__topBar">
         <div className="received__message__topBar--left">
-          <Image src={`http://romain2518-server.eddi.cloud/images/pp/${pictureSender}`} avatar size="mini" />
+          <Image src={`http://romaingibet-server.eddi.cloud/images/pp/${pictureSender}`} avatar size="mini" />
           <span className="pseudo">{pseudoSender}</span>
         </div>
         <div className="received__message__topBar--right">

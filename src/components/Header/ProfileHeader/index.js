@@ -32,7 +32,7 @@ function ProfileHeader() {
 
   return (
     <div className="home__profile">
-      <Link to={`/volunteers/${userPseudo}`}><Image src={`http://romain2518-server.eddi.cloud/images/pp/${profileUserPicture}`} avatar size="mini" className="home__profile--avatar" onClick={handleClickProfile} /></Link>
+      <Link to={`/volunteers/${userPseudo}`}><Image src={`http://romaingibet-server.eddi.cloud/images/pp/${profileUserPicture}`} avatar size="mini" className="home__profile--avatar" onClick={handleClickProfile} /></Link>
       <Link onClick={handleClickProfile} to={`/volunteers/${userPseudo}`}><span className="home__profile--pseudo">{userPseudo}</span></Link> 
       <Button className="home__profile--button" onClick={handleClick}>Logout</Button>
     </div>

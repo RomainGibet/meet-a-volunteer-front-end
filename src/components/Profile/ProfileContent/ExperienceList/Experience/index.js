@@ -25,7 +25,7 @@ function Experience({ id, title, picture, slugTitle }) {
   return (
     <div className="profile__experience">
       <div className="profile__experience--image">
-        <Image src={`http://romain2518-server.eddi.cloud/images/experiencePicture/${picture}`} size="medium" />
+        <Image src={`http://romaingibet-server.eddi.cloud/images/experiencePicture/${picture}`} size="medium" />
       </div>
       <div className="profile__experience--text">
         <h3>{title}</h3>

@@ -29,7 +29,7 @@ function Footer() {
       </Link>
 
       
-      { logged && <a href="http://romain2518-server.eddi.cloud/back/main">
+      { logged && <a href="http://romaingibet-server.eddi.cloud/back/main">
         <span className='footer__link'>Back office</span>
       </a>}
       

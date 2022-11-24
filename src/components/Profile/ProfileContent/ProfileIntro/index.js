@@ -19,7 +19,7 @@ function ProfileIntro() {
       <div className='profile__intro'>
           <div className='profile__intro--image'>
 
-              <Image src={`http://romain2518-server.eddi.cloud/images/pp/${profilePicture}`} avatar size="small" />
+              <Image src={`http://romaingibet-server.eddi.cloud/images/pp/${profilePicture}`} avatar size="small" />
           </div>
           <div className='profile__intro--pseudo'>
               <h2> {pseudo} </h2>

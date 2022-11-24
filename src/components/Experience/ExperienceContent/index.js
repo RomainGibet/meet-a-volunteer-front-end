@@ -44,7 +44,7 @@ function Experience() {
         <div className="experience__content">
 
           <div className="experience__image">
-            <img src={`http://romain2518-server.eddi.cloud/images/experiencePicture/${detailedExperience.picture}`} alt="" />
+            <img src={`http://romaingibet-server.eddi.cloud/images/experiencePicture/${detailedExperience.picture}`} alt="" />
           </div>
 
           <div className="experience__text">
@@ -58,7 +58,7 @@ function Experience() {
           <aside className="experience__aside">
             <div className="experience__profil">
               <div className="experience__profil--avatar">
-                <img src={`http://romain2518-server.eddi.cloud/images/pp/${detailedExperienceUser.profilePicture}`} alt="" />
+                <img src={`http://romaingibet-server.eddi.cloud/images/pp/${detailedExperienceUser.profilePicture}`} alt="" />
               </div>
               <div className="experience__profil--info" />
               <ul>

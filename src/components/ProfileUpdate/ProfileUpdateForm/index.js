@@ -62,8 +62,8 @@ function ProfileUpdateForm() {
         <h2 className="main__title">Update profile</h2>
         <div className="profile__form--content">
           <div className="profile__form--imgpreview">
-            <img src={`http://romain2518-server.eddi.cloud/images/pp/${profilePicture}`} alt="" />
-            {/* <img src={(profilePicture !== '') ? URL.createObjectURL(`http://romain2518-server.eddi.cloud/images/pp/${profilePicture}`) : profilePicture} alt="" /> */}
+            <img src={`http://romaingibet-server.eddi.cloud/images/pp/${profilePicture}`} alt="" />
+            {/* <img src={(profilePicture !== '') ? URL.createObjectURL(`http://romaingibet-server.eddi.cloud/images/pp/${profilePicture}`) : profilePicture} alt="" /> */}
           </div>
           <div className="profile__form--fields">
             <Form onSubmit={handleSubmit} unstackable className="profile__form--main">
